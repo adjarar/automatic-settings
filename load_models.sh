@@ -1,4 +1,4 @@
-models_dir="/home/webui/models"
+models_dir="/home/webui/automatic/models"
 mkdir $models_dir
 
 # automatic user settings
@@ -6,7 +6,7 @@ cd /home/webui/automatic
 wget -q https://raw.githubusercontent.com/adjarar/webui-docker-files/latest/webui-user.sh -O webui-user.sh \
 https://raw.githubusercontent.com/adjarar/automatic-user-files/main/config.json -O config.json
 
-# Extensions
+# Install extensions
 cd /home/webui/automatic/extensions
 git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
 git clone https://github.com/Elldreth/loopback_scaler.git

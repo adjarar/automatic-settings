@@ -23,8 +23,8 @@ wget -q https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/v
 https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
 
 # Controlnet Models
-mkdir $models_dir/Controlnet
-cd $models_dir/Controlnet
+mkdir $models_dir/ControlNet
+cd $models_dir/ControlNet
 wget -q https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth \
 https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth \
 https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth \

@@ -1,4 +1,4 @@
-webui_dir="/home/webui/stable-diffusion-webui"
+webui_dir="/home/webui/automatic"
 
 # temporary fix for: Could not load library libcudnn_cnn_infer.so.8
 cd $webui_dir/venv/lib/python3.10/site-packages/torch/lib
@@ -7,7 +7,7 @@ ln -s libnvrtc-672ee683.so.11.2 libnvrtc.so
 # User settings
 cd $webui_dir
 wget -q https://raw.githubusercontent.com/adjarar/webui-docker-files/latest/webui-user.sh -O webui-user.sh \
-https://raw.githubusercontent.com/adjarar/webui-docker-files/latest/config.json -O config.json
+https://raw.githubusercontent.com/adjarar/automatic-user-files/main/webui-user.sh -O config.json
 
 # Extensions
 cd $webui_dir/extensions

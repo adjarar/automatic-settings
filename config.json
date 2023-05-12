@@ -1,6 +1,6 @@
 {
     "sd_model_checkpoint": "sd-v1-5-adam-inpainting.ckpt [6c6304c2f6]",
-    "sd_checkpoint_cache": 0,
+    "sd_checkpoint_cache": 1,
     "sd_vae_checkpoint_cache": 0,
     "sd_vae": "vae-ft-mse-840000-ema-pruned.ckpt",
     "stream_load": false,
@@ -78,7 +78,7 @@
     "memmon_poll_rate": 2,
     "precision": "Autocast",
     "cuda_dtype": "FP16",
-    "no_half": true,
+    "no_half": false,
     "no_half_vae": false,
     "upcast_sampling": false,
     "disable_nan_check": true,

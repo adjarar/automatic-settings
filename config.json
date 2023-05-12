@@ -145,7 +145,7 @@
     "return_mask_composite": false,
     "disable_weights_auto_swap": true,
     "send_seed": true,
-    "send_size": true,
+    "send_size": false,
     "font": "",
     "keyedit_precision_attention": 0.1,
     "keyedit_precision_extra": 0.05,

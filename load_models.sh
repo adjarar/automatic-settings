@@ -3,8 +3,8 @@ mkdir $models_dir
 
 # automatic user settings
 cd /home/webui/automatic
-wget -q https://raw.githubusercontent.com/adjarar/automatic-user-files/main/webui-user.sh -O webui-user.sh \
-https://raw.githubusercontent.com/adjarar/automatic-user-files/main/config.json -O config.json
+wget -q https://raw.githubusercontent.com/adjarar/automatic-user-files/main/webui-user.sh -O webui-user.sh
+wget -q https://raw.githubusercontent.com/adjarar/automatic-user-files/main/config.json -O config.json
 
 # Install extensions
 cd /home/webui/automatic/extensions

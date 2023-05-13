@@ -9,7 +9,8 @@ wget -q https://raw.githubusercontent.com/adjarar/automatic-user-files/main/conf
 # webui user settings
 cd /home/webui
 git clone https://github.com/adjarar/invokeai-settings.git
-mv /home/webui/invokeai-settings/* /home/webui/invokeai/
+mv invokeai-settings/* invokeai/
+rm -rf invokeai-settings
 
 # Install extensions
 cd /home/webui/automatic/extensions
